@@ -708,6 +708,43 @@ span{
     animation-delay: calc(.3s * var(--i));
 }
 
+.doc-viewer-container {
+    margin-top: 16rem;
+    margin-right: 30rem;
+    text-align: right;   /* Align content to the right */
+    max-width: 50%;      /* Keep viewer on the right half */
+    margin-left: auto;   /* Push container to the right */
+  }
+  
+  #viewer {
+    width: 180%;
+    height: 350px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  #fullscreen-btn {
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: block;     /* Button aligns with iframe */
+    margin-left: auto;  /* Push button to the right */
+  }
+  
+  #fullscreen-btn:hover {
+    background: #005fa3;
+  }
+  
+
+.home-sci {
+    width: 22rem ;
+}
 
 /* mediaQueries */
 @media (max-width:1200px) {
